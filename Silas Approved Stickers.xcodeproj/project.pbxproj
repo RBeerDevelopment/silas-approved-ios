@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3255C159272DBFDE00BB8589 /* Silas_Approved_StickersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3255C158272DBFDE00BB8589 /* Silas_Approved_StickersApp.swift */; };
+		3255C15B272DBFDE00BB8589 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3255C15A272DBFDE00BB8589 /* MainView.swift */; };
+		3255C15D272DBFE000BB8589 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3255C15C272DBFE000BB8589 /* Assets.xcassets */; };
+		3255C160272DBFE000BB8589 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3255C15F272DBFE000BB8589 /* Preview Assets.xcassets */; };
+		3284CA87272E0D7000A6EFBE /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284CA86272E0D6F00A6EFBE /* SignInView.swift */; };
+		3284CA8A272E18B600A6EFBE /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 3284CA89272E18B600A6EFBE /* Apollo */; };
+		3284CA8C272E18B600A6EFBE /* ApolloWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 3284CA8B272E18B600A6EFBE /* ApolloWebSocket */; };
+		3284CA90272E1BAF00A6EFBE /* SignUp.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 3284CA8F272E1BAF00A6EFBE /* SignUp.graphql */; };
+		3284CA94272E1C7700A6EFBE /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284CA93272E1C7700A6EFBE /* API.swift */; };
+		3284CA97272E1D0200A6EFBE /* GraphQLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284CA96272E1D0200A6EFBE /* GraphQLService.swift */; };
+		3284CA99272E1D8600A6EFBE /* AllStickers.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 3284CA98272E1D8600A6EFBE /* AllStickers.graphql */; };
+		3284CA9B272E2C1D00A6EFBE /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284CA9A272E2C1D00A6EFBE /* Helper.swift */; };
+		3284CA9D272EAEEA00A6EFBE /* Login.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 3284CA9C272EAEEA00A6EFBE /* Login.graphql */; };
+		3284CAA6272EB64A00A6EFBE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284CAA5272EB64A00A6EFBE /* MapView.swift */; };
+		3284CAA8272EB70C00A6EFBE /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284CAA7272EB70C00A6EFBE /* MapViewModel.swift */; };
+		3284CAAB272EEA9300A6EFBE /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284CAAA272EEA9300A6EFBE /* MainViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3255C155272DBFDE00BB8589 /* Silas Approved Stickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Silas Approved Stickers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3255C158272DBFDE00BB8589 /* Silas_Approved_StickersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Silas_Approved_StickersApp.swift; sourceTree = "<group>"; };
+		3255C15A272DBFDE00BB8589 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3255C15C272DBFE000BB8589 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3255C15F272DBFE000BB8589 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3284CA86272E0D6F00A6EFBE /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		3284CA8E272E1AC000A6EFBE /* schema.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		3284CA8F272E1BAF00A6EFBE /* SignUp.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = SignUp.graphql; sourceTree = "<group>"; };
+		3284CA93272E1C7700A6EFBE /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		3284CA96272E1D0200A6EFBE /* GraphQLService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLService.swift; sourceTree = "<group>"; };
+		3284CA98272E1D8600A6EFBE /* AllStickers.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = AllStickers.graphql; sourceTree = "<group>"; };
+		3284CA9A272E2C1D00A6EFBE /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		3284CA9C272EAEEA00A6EFBE /* Login.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Login.graphql; sourceTree = "<group>"; };
+		3284CAA5272EB64A00A6EFBE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		3284CAA7272EB70C00A6EFBE /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		3284CAAA272EEA9300A6EFBE /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		3284CAAC272EEDDD00A6EFBE /* ProdConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ProdConfig.xcconfig; sourceTree = "<group>"; };
+		3284CAAF272EF2EF00A6EFBE /* Silas-Approved-Stickers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Silas-Approved-Stickers-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3255C152272DBFDE00BB8589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3284CA8A272E18B600A6EFBE /* Apollo in Frameworks */,
+				3284CA8C272E18B600A6EFBE /* ApolloWebSocket in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3255C14C272DBFDE00BB8589 = {
+			isa = PBXGroup;
+			children = (
+				3255C157272DBFDE00BB8589 /* Silas Approved Stickers */,
+				3255C156272DBFDE00BB8589 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3255C156272DBFDE00BB8589 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3255C155272DBFDE00BB8589 /* Silas Approved Stickers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3255C157272DBFDE00BB8589 /* Silas Approved Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				3284CAAF272EF2EF00A6EFBE /* Silas-Approved-Stickers-Info.plist */,
+				3284CAA9272EB71000A6EFBE /* map */,
+				3284CA95272E1CBB00A6EFBE /* graphQL */,
+				3255C158272DBFDE00BB8589 /* Silas_Approved_StickersApp.swift */,
+				3255C15A272DBFDE00BB8589 /* MainView.swift */,
+				3284CAAC272EEDDD00A6EFBE /* ProdConfig.xcconfig */,
+				3284CA86272E0D6F00A6EFBE /* SignInView.swift */,
+				3255C15C272DBFE000BB8589 /* Assets.xcassets */,
+				3255C15E272DBFE000BB8589 /* Preview Content */,
+				3284CA9A272E2C1D00A6EFBE /* Helper.swift */,
+				3284CAAA272EEA9300A6EFBE /* MainViewModel.swift */,
+			);
+			path = "Silas Approved Stickers";
+			sourceTree = "<group>";
+		};
+		3255C15E272DBFE000BB8589 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3255C15F272DBFE000BB8589 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3284CA95272E1CBB00A6EFBE /* graphQL */ = {
+			isa = PBXGroup;
+			children = (
+				3284CA93272E1C7700A6EFBE /* API.swift */,
+				3284CA96272E1D0200A6EFBE /* GraphQLService.swift */,
+				3284CA98272E1D8600A6EFBE /* AllStickers.graphql */,
+				3284CA9C272EAEEA00A6EFBE /* Login.graphql */,
+				3284CA8F272E1BAF00A6EFBE /* SignUp.graphql */,
+				3284CA8E272E1AC000A6EFBE /* schema.json */,
+			);
+			path = graphQL;
+			sourceTree = "<group>";
+		};
+		3284CAA9272EB71000A6EFBE /* map */ = {
+			isa = PBXGroup;
+			children = (
+				3284CAA5272EB64A00A6EFBE /* MapView.swift */,
+				3284CAA7272EB70C00A6EFBE /* MapViewModel.swift */,
+			);
+			path = map;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3255C154272DBFDE00BB8589 /* Silas Approved Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3255C163272DBFE000BB8589 /* Build configuration list for PBXNativeTarget "Silas Approved Stickers" */;
+			buildPhases = (
+				3284CA8D272E193900A6EFBE /* Generate Apollo GraphQL API */,
+				3255C151272DBFDE00BB8589 /* Sources */,
+				3255C152272DBFDE00BB8589 /* Frameworks */,
+				3255C153272DBFDE00BB8589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Silas Approved Stickers";
+			packageProductDependencies = (
+				3284CA89272E18B600A6EFBE /* Apollo */,
+				3284CA8B272E18B600A6EFBE /* ApolloWebSocket */,
+			);
+			productName = "Silas Approved Stickers";
+			productReference = 3255C155272DBFDE00BB8589 /* Silas Approved Stickers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3255C14D272DBFDE00BB8589 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3255C154272DBFDE00BB8589 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 3255C150272DBFDE00BB8589 /* Build configuration list for PBXProject "Silas Approved Stickers" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3255C14C272DBFDE00BB8589;
+			packageReferences = (
+				3284CA88272E18B500A6EFBE /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
+			productRefGroup = 3255C156272DBFDE00BB8589 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3255C154272DBFDE00BB8589 /* Silas Approved Stickers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3255C153272DBFDE00BB8589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3284CA99272E1D8600A6EFBE /* AllStickers.graphql in Resources */,
+				3284CA90272E1BAF00A6EFBE /* SignUp.graphql in Resources */,
+				3284CA9D272EAEEA00A6EFBE /* Login.graphql in Resources */,
+				3255C160272DBFE000BB8589 /* Preview Assets.xcassets in Resources */,
+				3255C15D272DBFE000BB8589 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3284CA8D272E193900A6EFBE /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GraphQL API";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3255C151272DBFDE00BB8589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3284CA87272E0D7000A6EFBE /* SignInView.swift in Sources */,
+				3284CA9B272E2C1D00A6EFBE /* Helper.swift in Sources */,
+				3255C15B272DBFDE00BB8589 /* MainView.swift in Sources */,
+				3284CA94272E1C7700A6EFBE /* API.swift in Sources */,
+				3284CAA8272EB70C00A6EFBE /* MapViewModel.swift in Sources */,
+				3284CA97272E1D0200A6EFBE /* GraphQLService.swift in Sources */,
+				3284CAA6272EB64A00A6EFBE /* MapView.swift in Sources */,
+				3255C159272DBFDE00BB8589 /* Silas_Approved_StickersApp.swift in Sources */,
+				3284CAAB272EEA9300A6EFBE /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3255C161272DBFE000BB8589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3284CAAC272EEDDD00A6EFBE /* ProdConfig.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3255C162272DBFE000BB8589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3284CAAC272EEDDD00A6EFBE /* ProdConfig.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3255C164272DBFE000BB8589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Silas Approved Stickers/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RT84M99N4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Silas-Approved-Stickers-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "beer.robin.Silas-Approved-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3255C165272DBFE000BB8589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Silas Approved Stickers/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RT84M99N4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Silas-Approved-Stickers-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "beer.robin.Silas-Approved-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3255C150272DBFDE00BB8589 /* Build configuration list for PBXProject "Silas Approved Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3255C161272DBFE000BB8589 /* Debug */,
+				3255C162272DBFE000BB8589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3255C163272DBFE000BB8589 /* Build configuration list for PBXNativeTarget "Silas Approved Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3255C164272DBFE000BB8589 /* Debug */,
+				3255C165272DBFE000BB8589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3284CA88272E18B500A6EFBE /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3284CA89272E18B600A6EFBE /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3284CA88272E18B500A6EFBE /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		3284CA8B272E18B600A6EFBE /* ApolloWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3284CA88272E18B500A6EFBE /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloWebSocket;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3255C14D272DBFDE00BB8589 /* Project object */;
+}

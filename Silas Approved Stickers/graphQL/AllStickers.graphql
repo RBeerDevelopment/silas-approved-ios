@@ -1,0 +1,12 @@
+query AllStickers {
+  stickers {
+    id
+    name
+    type
+    location {
+      lat
+      lng
+    }
+    imageUrl
+  }
+}
